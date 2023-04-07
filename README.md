@@ -25,8 +25,10 @@ PyPoll:
     
     2. I didn't know how to get the unique names without duplicates from the candidate list so I checked Stack Overflow and learned about the set() function. I'm not entirely sure that I'm using it right, but the code works with no errors so I'm not going to question it!
     
-    3. using y and z to calculate amounts and percentages was a new concept to me. I also found these resources online. 
+    3. Using y and z to calculate amounts and percentages was a new concept to me. I tried it and I got the correct answer so I'm just going with it. I also found these resources online. 
     
-    4. I used code from the PyBank challenge to help find the winner.
+    4. The round function I also found through a few different sources online. 
     
-    5. I had help from Stack Overflow with how to print the individual names from the unique candidate list 
+    5. I used code from the PyBank challenge to help find the winner.
+    
+    6. I had help from Stack Overflow with how to print the individual names from the unique candidate list. 
