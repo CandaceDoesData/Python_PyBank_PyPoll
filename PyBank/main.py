@@ -75,8 +75,8 @@ print("------------------------------------")
 print("Total Months: " + str(month_count))
 print("Total: $" + str(total_profit))
 print("Average Change: $" + str(average_change_profit))
-print("Greatest Increase in Profits: " + str(increase_date) + (" $") + str(greatest_increase))
-print("Greatest Decrease in Profits: " + str(decrease_date) + (" $") + str(greatest_decrease))
+print("Greatest Increase in Profits: " + str(increase_date) + (" ($") + str(greatest_increase) + (")"))
+print("Greatest Decrease in Profits: " + str(decrease_date) + (" ($") + str(greatest_decrease) + (")"))
 
 
 # Objective 8: Open file to begin writing text
@@ -89,6 +89,6 @@ with open("/Users/candacestingley/Documents/GitHub/Python_Challenge/PyBank/Analy
     text.write("Total Months: " + str(month_count) + "\n\n")
     text.write("Total: $" + str(total_profit) + "\n\n")
     text.write("Average Change: $" + str(average_change_profit) + "\n\n")
-    text.write("Greatest Increase in Profits: " + str(increase_date) + (" $") + str(greatest_increase) + "\n\n")
-    text.write("Greatest Decrease in Profits: " + str(decrease_date) + (" $") + str(greatest_decrease) + "\n\n")
+    text.write("Greatest Increase in Profits: " + str(increase_date) + (" $") + str(greatest_increase) + (")") + "\n\n")
+    text.write("Greatest Decrease in Profits: " + str(decrease_date) + (" $") + str(greatest_decrease) + (")") + "\n\n")
 

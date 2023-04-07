@@ -43,7 +43,7 @@ with open(election_csv, "r") as csvfile:
         vote_count_list.append(y)
        
         # 6.07 z is the percent of total votes per candidate
-        z = (y/vote_count)*100
+        z = round((y/vote_count)*100, 3)
 
         # 6.08 Add the percentages to the vote percent list
         vote_percent_list.append(z)
