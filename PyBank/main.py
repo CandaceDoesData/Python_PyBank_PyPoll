@@ -39,7 +39,7 @@ with open(budget_csv, "r") as csvfile:
 
         # 6.04 Calculate the change in profits from month to month.
         this_month_profit = int(row[1])
-        month_change_profit = this_month__profit - last_month_profit
+        month_change_profit = this_month_profit - last_month_profit
 
         # 6.05 Store these monthly changes in a list
         changes_list.append(month_change_profit)
@@ -69,8 +69,9 @@ with open(budget_csv, "r") as csvfile:
         decrease_date = dates_list[changes_list.index(greatest_decrease)]
 
 # Objective 7: Print results to Terminal
+print("------------------------------------")
 print("Financial Analysis")
-print("-------------------")
+print("------------------------------------")
 print("Total Months: " + str(month_count))
 print("Total: $" + str(total_profit))
 print("Average Change: $" + str(average_change_profit))
