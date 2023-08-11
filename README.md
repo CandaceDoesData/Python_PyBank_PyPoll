@@ -1,4 +1,6 @@
-## PyBank Challenge
+# Python Challenge
+
+## PyBank 
 
 Create a Python script to analyze the financial records of your company. You will be given a financial dataset called `budget_data.csv`. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
@@ -16,7 +18,7 @@ Your task is to create a Python script that analyzes the records to calculate ea
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-## PyPoll Challenge
+## PyPoll 
 
 Help a small, rural town modernize its vote-counting process.
 
